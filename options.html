@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nice Countdown options</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="all"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body id="options">
+    <div id="page">
+        <h1>Nice Countdown options</h1>
+        <form>
+            <div id="status"></div>
+            <div class="form-item">
+                <label>End date</label>
+                <div class="date-time-wrapper">
+                    <input id="datetime" type="datetime-local" name="DateTimeLocalTest" value="">
+                </div>
+            </div>
+            <div class="form-item">
+                <label>Messge when countdown has reached 0</label>
+                <div class="message-after-wrapper">
+                    <input id="message-after" type="text" placeholder="Message">
+                </div>
+            </div>
+            <div class="form-item">
+                <label>Font color</label>
+                <div id="radios">
+                    <div class="swatch red">
+                        <input id="red" type="radio" name="color" value="red">
+                    </div>
+                    <div class="swatch green">
+                        <input id="green" type="radio" name="color" value="#04ff00">
+                    </div>
+                    <div class="swatch blue">
+                        <input id="blue" type="radio" name="color" value="blue">
+                    </div>
+                    <div class="swatch yellow">
+                        <input id="yellow" type="radio" name="color" value="yellow">
+                    </div>
+                    <div class="swatch white">
+                        <input id="white" type="radio" name="color" value="white">
+                    </div>
+                </div>
+            </div>
+
+            <a id="back" href="popup.html"><i class="fa fa-cog fa-reply"></i> back</a>
+            <button id="save">Save</button>
+        </form>
+    </div>
+    <script src="js/options.js"></script>
+</body>
+</html>

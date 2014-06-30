@@ -1,0 +1,111 @@
+@font-face {
+    font-family: digital;
+    src: url('../font/digital-7-webfont.woff');
+}
+
+a, a:visited{
+    color: #535353;
+    text-decoration: none;
+}
+
+body#popup a, body#popup a:visited{
+    color: #04ff00;
+    outline: none;
+}
+
+/***************************
+**  POPUP
+***************************/
+body#popup {
+    background-color: black;
+    color: #04ff00;
+    font-family: digital;
+    min-width: 357px;
+    overflow-x: hidden;
+}
+
+img {
+    margin: 5px;
+    border: 2px solid black;
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+}
+
+#timer {
+    display: inline-block;
+}
+
+#settings {
+    display: inline-block;
+    float: right;
+}
+
+/***************************
+**  OPTIONS
+***************************/
+body#options {
+    color: #535353;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    min-width: 357px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.error{
+    background-color: #FFA6A6;
+    border: 1px solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-item {
+    margin-bottom: 10px;
+}
+
+#message-after {
+    width: 338px;
+}
+
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+#save {
+    float: right;
+}
+
+.swatch {
+    border: 1px solid #535353;
+    display: inline-block;
+    height: 20px;
+    margin: 0;
+    width: 18%;
+}
+
+.green {
+    background-color: #04ff00;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
